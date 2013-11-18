@@ -1,0 +1,58 @@
+Driver: GTiff/GeoTIFF
+Files: jamespk1027_naip.tif
+Size is 18000, 12000
+Coordinate System is:
+PROJCS["WGS 84 / UTM zone 13N",
+    GEOGCS["WGS 84",
+        DATUM["WGS_1984",
+            SPHEROID["WGS 84",6378137,298.257223563,
+                AUTHORITY["EPSG","7030"]],
+            AUTHORITY["EPSG","6326"]],
+        PRIMEM["Greenwich",0],
+        UNIT["degree",0.0174532925199433],
+        AUTHORITY["EPSG","4326"]],
+    PROJECTION["Transverse_Mercator"],
+    PARAMETER["latitude_of_origin",0],
+    PARAMETER["central_meridian",-105],
+    PARAMETER["scale_factor",0.9996],
+    PARAMETER["false_easting",500000],
+    PARAMETER["false_northing",0],
+    UNIT["metre",1,
+        AUTHORITY["EPSG","9001"]],
+    AUTHORITY["EPSG","32613"]]
+Origin = (437999.974322178460000,4415000.016175268200000)
+Pixel Size = (0.999999874920329,-0.999999874920329)
+Metadata:
+  AREA_OR_POINT=Area
+Image Structure Metadata:
+  INTERLEAVE=PIXEL
+Corner Coordinates:
+Upper Left  (  437999.974, 4415000.016) (105d43'30.35"W, 39d52'58.05"N)
+Lower Left  (  437999.974, 4403000.018) (105d43'26.26"W, 39d46'28.85"N)
+Upper Right (  455999.972, 4415000.016) (105d30'52.54"W, 39d53' 2.10"N)
+Lower Right (  455999.972, 4403000.018) (105d30'49.64"W, 39d46'32.88"N)
+Center      (  446999.973, 4409000.017) (105d37' 9.70"W, 39d49'45.64"N)
+Band 1 Block=18000x1 Type=Byte, ColorInterp=Red
+    Computed Min/Max=10.000,255.000
+  Minimum=10.000, Maximum=255.000, Mean=82.039, StdDev=39.811
+  Metadata:
+    STATISTICS_MAXIMUM=255
+    STATISTICS_MEAN=82.039068768519
+    STATISTICS_MINIMUM=10
+    STATISTICS_STDDEV=39.811151379005
+Band 2 Block=18000x1 Type=Byte, ColorInterp=Green
+    Computed Min/Max=10.000,255.000
+  Minimum=10.000, Maximum=255.000, Mean=95.300, StdDev=37.119
+  Metadata:
+    STATISTICS_MAXIMUM=255
+    STATISTICS_MEAN=95.300082180556
+    STATISTICS_MINIMUM=10
+    STATISTICS_STDDEV=37.118929026555
+Band 3 Block=18000x1 Type=Byte, ColorInterp=Blue
+    Computed Min/Max=43.000,255.000
+  Minimum=43.000, Maximum=255.000, Mean=96.468, StdDev=26.190
+  Metadata:
+    STATISTICS_MAXIMUM=255
+    STATISTICS_MEAN=96.467887768519
+    STATISTICS_MINIMUM=43
+    STATISTICS_STDDEV=26.189890256317

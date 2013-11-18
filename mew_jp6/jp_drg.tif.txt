@@ -1,0 +1,58 @@
+Driver: GTiff/GeoTIFF
+Files: jamespk1027_drg.tif
+Size is 7368, 4912
+Coordinate System is:
+PROJCS["WGS 84 / UTM zone 13N",
+    GEOGCS["WGS 84",
+        DATUM["WGS_1984",
+            SPHEROID["WGS 84",6378137,298.257223563,
+                AUTHORITY["EPSG","7030"]],
+            AUTHORITY["EPSG","6326"]],
+        PRIMEM["Greenwich",0],
+        UNIT["degree",0.0174532925199433],
+        AUTHORITY["EPSG","4326"]],
+    PROJECTION["Transverse_Mercator"],
+    PARAMETER["latitude_of_origin",0],
+    PARAMETER["central_meridian",-105],
+    PARAMETER["scale_factor",0.9996],
+    PARAMETER["false_easting",500000],
+    PARAMETER["false_northing",0],
+    UNIT["metre",1,
+        AUTHORITY["EPSG","9001"]],
+    AUTHORITY["EPSG","32613"]]
+Origin = (437998.810631894330000,4415001.969509401400000)
+Pixel Size = (2.443053615595680,-2.443053615595680)
+Metadata:
+  AREA_OR_POINT=Area
+Image Structure Metadata:
+  INTERLEAVE=PIXEL
+Corner Coordinates:
+Upper Left  (  437998.811, 4415001.970) (105d43'30.40"W, 39d52'58.12"N)
+Lower Left  (  437998.811, 4403001.690) (105d43'26.31"W, 39d46'28.90"N)
+Upper Right (  455999.230, 4415001.970) (105d30'52.57"W, 39d53' 2.17"N)
+Lower Right (  455999.230, 4403001.690) (105d30'49.67"W, 39d46'32.94"N)
+Center      (  446999.020, 4409001.830) (105d37' 9.74"W, 39d49'45.70"N)
+Band 1 Block=7368x1 Type=Byte, ColorInterp=Red
+    Computed Min/Max=0.000,255.000
+  Minimum=0.000, Maximum=255.000, Mean=207.449, StdDev=34.073
+  Metadata:
+    STATISTICS_MAXIMUM=255
+    STATISTICS_MEAN=207.4490620977
+    STATISTICS_MINIMUM=0
+    STATISTICS_STDDEV=34.073383039832
+Band 2 Block=7368x1 Type=Byte, ColorInterp=Green
+    Computed Min/Max=0.000,255.000
+  Minimum=0.000, Maximum=255.000, Mean=222.248, StdDev=41.695
+  Metadata:
+    STATISTICS_MAXIMUM=255
+    STATISTICS_MEAN=222.24804114854
+    STATISTICS_MINIMUM=0
+    STATISTICS_STDDEV=41.694945836278
+Band 3 Block=7368x1 Type=Byte, ColorInterp=Blue
+    Computed Min/Max=0.000,255.000
+  Minimum=0.000, Maximum=255.000, Mean=172.690, StdDev=53.435
+  Metadata:
+    STATISTICS_MAXIMUM=255
+    STATISTICS_MEAN=172.68961286503
+    STATISTICS_MINIMUM=0
+    STATISTICS_STDDEV=53.435187819493

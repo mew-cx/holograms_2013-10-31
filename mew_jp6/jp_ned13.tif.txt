@@ -1,0 +1,42 @@
+Driver: GTiff/GeoTIFF
+Files: jamespk1027_ned13.tif
+Size is 1953, 1302
+Coordinate System is:
+PROJCS["WGS 84 / UTM zone 13N",
+    GEOGCS["WGS 84",
+        DATUM["WGS_1984",
+            SPHEROID["WGS 84",6378137,298.257223563,
+                AUTHORITY["EPSG","7030"]],
+            AUTHORITY["EPSG","6326"]],
+        PRIMEM["Greenwich",0],
+        UNIT["degree",0.0174532925199433],
+        AUTHORITY["EPSG","4326"]],
+    PROJECTION["Transverse_Mercator"],
+    PARAMETER["latitude_of_origin",0],
+    PARAMETER["central_meridian",-105],
+    PARAMETER["scale_factor",0.9996],
+    PARAMETER["false_easting",500000],
+    PARAMETER["false_northing",0],
+    UNIT["metre",1,
+        AUTHORITY["EPSG","9001"]],
+    AUTHORITY["EPSG","32613"]]
+Origin = (437998.819700066170000,4415008.561155715000000)
+Pixel Size = (9.215280026464741,-9.215280026464741)
+Metadata:
+  AREA_OR_POINT=Area
+Image Structure Metadata:
+  INTERLEAVE=BAND
+Corner Coordinates:
+Upper Left  (  437998.820, 4415008.561) (105d43'30.40"W, 39d52'58.33"N)
+Lower Left  (  437998.820, 4403010.267) (105d43'26.31"W, 39d46'29.18"N)
+Upper Right (  455996.262, 4415008.561) (105d30'52.70"W, 39d53' 2.38"N)
+Lower Right (  455996.262, 4403010.267) (105d30'49.80"W, 39d46'33.22"N)
+Center      (  446997.541, 4409009.414) (105d37' 9.80"W, 39d49'45.95"N)
+Band 1 Block=1953x1 Type=Float32, ColorInterp=Gray
+    Computed Min/Max=2440.524,4080.168
+  Minimum=2440.524, Maximum=4080.168, Mean=3142.636, StdDev=304.836
+  Metadata:
+    STATISTICS_MAXIMUM=4080.1682128906
+    STATISTICS_MEAN=3142.6363157195
+    STATISTICS_MINIMUM=2440.5241699219
+    STATISTICS_STDDEV=304.83638875481
