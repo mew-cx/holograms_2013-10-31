@@ -1,0 +1,41 @@
+  Geode {
+    DataVariance DYNAMIC
+    nodeMask 0xffffffff
+    cullingActive TRUE
+
+  StateSet {
+    DataVariance STATIC
+    rendering_hint DEFAULT_BIN
+    renderBinMode INHERIT
+
+    textureUnit 0 {
+      GL_TEXTURE_2D ON
+      Texture2D {
+        DataVariance STATIC
+        file "IMAGE.png"
+        wrap_s CLAMP_TO_EDGE
+        wrap_t CLAMP_TO_EDGE
+        wrap_r CLAMP
+        min_filter LINEAR_MIPMAP_LINEAR
+        mag_filter LINEAR
+        maxAnisotropy 1
+        useHardwareMipMapGeneration TRUE
+        unRefImageDataAfterApply FALSE
+        internalFormatMode USE_IMAGE_DATA_FORMAT
+      }
+    }
+  }
+
+    num_drawables 1
+    Geometry {
+      DataVariance DYNAMIC
+      useDisplayList TRUE
+      useVertexBufferObjects FALSE
+
+
+DATA_GOES_HERE
+
+
+    }
+  }
+
